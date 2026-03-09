@@ -1,0 +1,75 @@
+==================================================
+     RESUME SCREENING SYSTEM - NLP MODEL          
+==================================================
+[1/5] Loading dataset from: resume_dataset.csv
+Dataset loaded successfully with 13389 records.
+[2/5] Cleaning and Preprocessing text data...
+Number of Job Categories: 43
+[3/5] Extracting features using TF-IDF Vectorization...
+[4/5] Training Random Forest Classifier (Optimized for Accuracy)...
+[5/5] Evaluating Model Performance...
+
+Model Training Complete!
+Accuracy Score: 80.96%
+
+Classification Report:
+                           precision    recall  f1-score   support
+
+               Accountant       0.78      0.96      0.86        70
+                 Advocate       0.80      0.88      0.84        58
+              Agriculture       0.94      0.98      0.96        59
+                  Apparel       0.84      0.92      0.88        64
+             Architecture       0.84      0.75      0.79        69
+                     Arts       0.82      0.83      0.83        66
+               Automobile       0.69      0.59      0.63        63
+                 Aviation       0.88      1.00      0.94        68
+                      BPO       0.71      0.42      0.53        40
+                  Banking       0.83      0.92      0.87        63
+               Blockchain       1.00      0.22      0.36         9
+Building and Construction       0.81      0.93      0.86        69
+         Business Analyst       0.79      0.85      0.82        68
+           Civil Engineer       0.88      0.92      0.90        73
+               Consultant       0.82      0.66      0.73        74
+             Data Science       0.93      0.65      0.76        60
+                 Database       0.86      0.59      0.70        51
+                Designing       0.72      0.67      0.69        51
+                   DevOps       0.93      0.98      0.96        58
+            Digital Media       0.77      0.79      0.78        72
+         DotNet Developer       0.78      0.85      0.81        66
+            ETL Developer       0.79      0.81      0.80        59
+                Education       0.78      0.95      0.86        82
+   Electrical Engineering       0.90      0.91      0.90        77
+                  Finance       0.73      0.65      0.69        68
+       Food and Beverages       0.84      0.81      0.83        32
+       Health and Fitness       0.92      0.92      0.92        66
+          Human Resources       0.81      0.96      0.88        72
+   Information Technology       0.88      0.67      0.76        55
+           Java Developer       0.81      0.93      0.87        70
+               Management       0.51      0.29      0.37        72
+      Mechanical Engineer       0.93      0.99      0.96        77
+Network Security Engineer       0.76      0.95      0.85        66
+       Operations Manager       0.69      0.70      0.69        69
+                      PMO       0.93      0.95      0.94        57
+         Public Relations       0.92      0.87      0.89        67
+         Python Developer       0.71      0.65      0.68        49
+          React Developer       0.43      0.33      0.38        36
+            SAP Developer       0.93      0.93      0.93        61
+            SQL Developer       0.73      0.82      0.77        68
+                    Sales       0.63      0.75      0.69        73
+                  Testing       0.84      0.88      0.86        69
+            Web Designing       0.84      0.68      0.75        62
+
+                 accuracy                           0.81      2678
+                macro avg       0.81      0.79      0.79      2678
+             weighted avg       0.81      0.81      0.80      2678
+
+
+==================================================
+     LIVE PREDICTION TEST CASES
+==================================================
+Test Resume 1 Prediction: [Python Developer]
+Test Resume 2 Prediction: [Human Resources]
+Test Resume 3 Prediction: [Data Science]
+Test Resume 4 Prediction: [Management]
+==================================================
+Script execution finished. All results saved.
